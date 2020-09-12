@@ -5,14 +5,122 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Veterinary clinic</title>
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
-  <p class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laborum eligendi corrupti ex rerum
-    consectetur illo officiis ab! Illo sunt consequatur quasi obcaecati, nulla officiis quod cumque dolores iusto
-    nostrum officia id. Exercitationem!</p>
+  <header class="site-header">
+    <div class="work-info">
+      <div class="container">
+        <div class="work-info-wrapper">
+          <span class="adress"><a
+              href="https://yandex.uz/maps/10335/tashkent/?ll=69.192676%2C41.313047&mode=search&oid=151717058852&ol=biz&z=20.2"
+              class="addres-link">г. Мариуполь, проспект Победы, 48а</a></span>
+          <div class="phones">
+            <span class="phone-first"><a class="tel-link" href="tel:+998990545606">(067) 634 -75 - 74</a></span>
+            <span class="phone-second"><a class="tel-link" href="tel:+998990545606">(0637) 57 - 01 - 31</a></span>
+            <span class="phone-third"><a class="tel-link" href="tel:+998990545606">(098) 266 - 43 - 89</a></span>
+          </div>
+          <div class="work-times">
+            <span class="mn-wd"><span class="weekday">Пн - Пт </span>8:00 - 18:00</span>
+            <span class="th-st"><span class="weekday">Сб - Вс </span>8:00 - 14:00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Work info-->
+    <div class="navbar">
+      <div class="container">
+        <nav class="site-nav">
+          <img src="img/logo-vet.svg" alt="logo VET" class="logo-img" width="178" height="86">
+          <div class="nav-wrapper">
+            <ul class="nav-list">
+              <li class="nav-item active home"><a class="nav-link" href="#">Главная</a></li>
+              <li class="nav-item about-clinic"><a class="nav-link" href="#">О Клинике</a></li>
+              <li class="nav-item our-services"><a class="nav-link" href="services.html">Наши Услуги</a></li>
+              <li class="nav-item useful-articles"><a class="nav-link" href="articles.html">Полезные Статьи</a></li>
+              <li class="nav-item faq"><a class="nav-link" href="faq.html">FAQ</a></li>
+              <li class="nav-item conatcts"><a class="nav-link" href="conatcts">Контакты</a></li>
+            </ul>
+            <span class="ask-qustion"><a href="#" class="ask-question-link">Задать вопрос</a></span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!--Site header-->
+  <main>
+    <section class="intro">
+      <div class="container">
+        <div class="hero-txt">
+          <h1 class="hero-heading">Мы заботимся о <b class="blue-heading"> ваших питомцах!</b></h1>
+          <p class="hero-description">Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по
+            лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы
+            быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему
+            домашнему
+            любимцу.</p>
+          <a href="services.html" class="button-link">Наши услуги</a>
+        </div>
+      </div>
+    </section>
+    <div class="blockquote-section">
+      <div class="container">
+        <hr class="divider">
+        <blockquote class="blockqoute">Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу.
+          Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную
+          ветеринарную помощь.</blockquote>
+        <hr class="divider">
+        <cite class="block-author">Оржоникидзевская Ветеринарная клиника</cite>
+      </div>
+    </div>
+    <section class="slider-services">
+      <div class="container">
+        <h2 class="slider-heading">Наши услуги</h2>
+        <div class="slider">
+          <ul class="services-list">
+            <li class="service active-slide">
+              <a href="#" class="service-selector"><span class="select-wrapper"></span></a>
+              <p class="service-name initial-inspection">Первичный осмотр</p>
+            </li>
+            <li class="service">
+              <a href="#" class="service-selector "><span class="select-wrapper"></span></a>
+              <p class="service-name initial-inspection-girl">Первичный осмотр</p>
+            </li>
+            <li class="service">
+              <a href="#" class="service-selector"><span class="select-wrapper"></span></a>
+              <p class="service-name surgical-intervention">Хирургическое вмешательство</p>
+            </li>
+            <li class="service">
+              <a href="#" class="service-selector"><span class="select-wrapper"></span></a>
+              <p class="service-name dermatology">Дерматология</p>
+            </li>
+            <li class="service">
+              <a href="#" class="service-selector"><span class="select-wrapper"></span></a>
+              <p class="service-name laboratory-diagnostics">Лабораторная диагностика</p>
+            </li>
+            <li class="service">
+              <a href="#" class="service-selector"><span class="select-wrapper"></span></a>
+              <p class="service-name ophthalmology">Офтальмология</p>
+            </li>
+            <li class="service">
+              <a href="#" class="service-selector"><span class="select-wrapper"></span></a>
+              <p class="service-name ophthalmology">Офтальмология</p>
+            </li>
+            <li class="service">
+              <a href="#" class="service-selector"><span class="select-wrapper"></span></a>
+              <p class="service-name ophthalmology">Офтальмология</p>
+            </li>
+            <li class="service">
+              <a href="#" class="service-selector"><span class="select-wrapper"></span></a>
+              <p class="service-name ophthalmology">Офтальмология</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
