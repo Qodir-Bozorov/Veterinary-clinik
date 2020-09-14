@@ -282,6 +282,10 @@ body {
   line-height: 64px;
 }
 
+.blue-heading {
+  color: #78C0DE;
+}
+
 .hero-description {
   font-weight: normal;
   font-size: 16px;
@@ -341,6 +345,7 @@ body {
 }
 
 .blockqoute::after {
+  position: absolute;
   width: 70px;
   height: 55px;
   transform: translate(50px, 50px) rotate(180deg);
@@ -385,7 +390,9 @@ body {
 }
 
 .services-list {
-  width: 100%;
+  padding: 0;
+  margin: 0;
+  width: 98%;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -394,8 +401,9 @@ body {
 }
 
 .slider {
+  text-align: center;
   width: 100%;
-  overflow: hidden;
+  position: relative;
 }
 
 .service {
@@ -427,7 +435,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   padding: 0;
-  margin: 0; 
+  margin: 0;
 }
 
 .services-list .active-slide {
@@ -513,4 +521,89 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.next-btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  border: none;
+  background-color: #fff;
+}
+
+.prev-btn {
+  position: absolute;
+  top: 50%;
+  left: -10px;
+}
+
+.button-txt::before {
+  align-self: center;
+  width: 21px;
+  height: 21px;
+  background-image: url(../img/money.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+  content: "";
+}
+
+.active-slide-content {
+  background-color: #fff;
+  width: 100%;
+  padding: 40px;
+}
+
+.tex-wrapper {
+  text-align: left;
+  width: 490px;
+  margin-left: 65px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.sign-in {
+  margin-top: 235px;
+}
+
+.sign-in-content-wrapper {
+  padding: 85px;
+  position: relative;
+}
+
+.sign-heading {
+  font-size: 48px;
+  line-height: 20px;
+}
+
+.join-email {
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.join-button {
+  padding: 15px 50px;
+  background-color: #333333;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+}
+
+.backround-wrapper {
+  background-color: #78C0DE;
+  color: #fff;
+  background-image: url(../img/paws.png);
+  background-repeat: no-repeat;
+  background-position: center center, center right;
+}
+
+.puppy-backround {
+  position: absolute;
+  top: -31%;
+  right: 0;
 }
